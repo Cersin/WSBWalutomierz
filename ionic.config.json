@@ -1,0 +1,7 @@
+{
+  "name": "WSBWalutomierz",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "vue"
+}
