@@ -37,7 +37,7 @@ export default defineComponent({
 });
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 #container {
   text-align: center;
   
