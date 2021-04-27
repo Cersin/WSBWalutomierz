@@ -27,8 +27,6 @@ export default defineComponent({
   box-sizing: inherit;
   font-weight: 400;
   color: var(--ion-text);
-  background-color: var(--ion-color-secondary);
-
 }
 html {
   box-sizing: border-box;
