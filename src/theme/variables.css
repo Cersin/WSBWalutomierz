@@ -21,6 +21,8 @@ http://ionicframework.com/docs/theming/ */
   /** danger **/
   --ion-color-danger: #eb445a;
 
+  --ion-color-medium: #dedfe5;
+
   /** dark **/
   --ion-color-dark: #222428;
 
@@ -40,6 +42,7 @@ http://ionicframework.com/docs/theming/ */
     --ion-color-warning: #ab8d1c;
     --ion-color-danger: #cf243a;
     --ion-color-dark: #b2b2b7;
+    --ion-color-medium: #92949c;
     --ion-text: #FFFFFF;
   }
 

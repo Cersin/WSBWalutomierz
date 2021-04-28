@@ -40,9 +40,19 @@ export default defineComponent({
       }
     }
   },
+  beforeCreate() {
+    if (localStorage.getItem('intro')) {
+      this.$router.push({path: 'calculator', replace: true});
+    }
+  },
   methods: {
     end() {
-      console.log("end");
+      localStorage.setItem('intro', "true");
+      console.log('elo');
+      setTimeout(() => {
+        // this.$router.push('calculator');
+        this.$router.push({path: 'calculator', replace: true});
+      }, 5000);
     },
     checkDarkTheme() {
       document.body.classList.toggle('dark');
