@@ -1,6 +1,7 @@
 <template>
   <ion-card>
     <ion-card-header>
+      <ion-img class="WSB-img" src="assets/leg.jpg" alt="WSB Logo"></ion-img>
       <ion-card-subtitle>
         DANE
       </ion-card-subtitle>
@@ -22,12 +23,13 @@
 </template>
 
 <script>
-import {IonCard, IonCardContent, IonCardHeader, IonCardSubtitle, IonCardTitle, IonText} from '@ionic/vue'
+import {IonCard, IonCardContent, IonImg, IonCardHeader, IonCardSubtitle, IonCardTitle, IonText} from '@ionic/vue'
 
 export default {
   name: "Personal",
   components: {
     IonCard,
+    IonImg,
     IonText,
     IonCardTitle,
     IonCardContent,
@@ -38,4 +40,20 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+  ion-card {
+    border: 1px solid rgba(0, 0, 0, .2);
+  }
+
+  ion-card-subtitle {
+    margin: .5rem 0;
+    font-weight: 200;
+  }
+
+  ion-card-title {
+    margin-bottom: .5rem;
+  }
+
+  h4 {
+    font-weight: 200;
+  }
 </style>

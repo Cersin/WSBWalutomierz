@@ -50,7 +50,6 @@ export default defineComponent({
       localStorage.setItem('intro', "true");
       console.log('elo');
       setTimeout(() => {
-        // this.$router.push('calculator');
         this.$router.push({path: 'calculator', replace: true});
       }, 5000);
     },
